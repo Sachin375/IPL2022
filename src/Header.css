@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(68, 68, 147);
+    align-items: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    
+}
+.header-first{
+    width: 40%;
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+    
+}
+.header img{
+    width: 5vw;
+    
+}
+
+.header-second{
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+}
+.search{
+    background-color: rgb(103, 103, 181);
+    width: 23px;
+    height: 23px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+}

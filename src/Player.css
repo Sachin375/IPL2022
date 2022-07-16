@@ -1,0 +1,44 @@
+.player_container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(237, 231, 231);
+    
+}
+.curr_player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100vh;
+    overflow: auto;
+}
+.btn:hover{
+cursor: pointer;
+background-color: rgb(160, 154, 154);
+}
+.playing11, .extra{
+    background-color: black;
+    color: white;
+    margin-top: 46px;
+    padding: 10px;
+    text-align: center;
+}
+.extra_player{
+    height: 100vh;
+    overflow: auto;
+}
+
+@media only screen and (max-width: 1250px) {
+    .curr_player{   
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        
+        }
+  }
+  @media only screen and (max-width: 950px) {
+    .curr_player{   
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+        
+        }
+  }

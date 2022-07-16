@@ -1,0 +1,18 @@
+.player_card{
+    width: 250px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+.image_profile{
+    width: 170px;
+}
+.name{
+font-size: 30px;
+font-weight: bold;
+
+}
+.details{
+    display: flex;
+    justify-content: space-evenly;
+}

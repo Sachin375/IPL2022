@@ -1,0 +1,23 @@
+.Link{
+    text-decoration: none;
+}
+.card_image img{
+    width: 150px;
+}
+.card{
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.card:hover{
+transform: scale(1.03);
+box-shadow: 7px 7px 8px #888888;
+}
+
+.card_title{
+    color: white;
+}
